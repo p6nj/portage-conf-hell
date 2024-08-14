@@ -1,0 +1,5 @@
+# required by linux-firmware (argument)
+sys-kernel/linux-firmware linux-fw-redistributable
+# required by intel-microcode (argument)
+sys-firmware/intel-microcode intel-ucode
+games-util/steam-launcher ValveSteamLicense

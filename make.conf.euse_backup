@@ -1,0 +1,39 @@
+COMMON_FLAGS="-O3 -pipe -march=alderlake -mabm -mno-cldemote -mno-kl -mno-pconfig -mno-sgx -mno-widekl -mshstk --param=l1-cache-line-size=64 --param=l1-cache-size=32 --param=l2-cache-size=10240"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+EMERGE_DEFAULT_OPTS="--jobs 3 --load-average 9"
+PORTAGE_SCHEDULING_POLICY="idle"
+MAKEOPTS="-j5"
+
+VIDEO_CARDS="intel"
+
+USE="-afp -bluray -cdda -cups -doc -emacs ffmpeg -flatpak -fuse -gnome \
+     -gpm -grub -ios -kde -modemmanager -nfs -nvidia -printsupport \
+     -samba -screencast -systemd -tiff wayland Xwayland alsa \
+     apache2 appindicator bluetooth clippy dbus ddcutil dot dracut \
+     efistub egl elogind fontconfig fonts gles2 gtk gstreamer gtk3 \
+     graphviz hwaccel icons icu introspection java jumbo-build lcms \
+     libei lto man moodbar mysql mysqli networkmanager offensive \
+     openh264 parallel-compiler pipewire-alsa pgo postproc pulseaudio \
+     qml qt5 rust rust-analyzer rust-src rustfmt sound-server \
+     swaybar system-bootstrap system-llvm text tray udev uki \
+     verify-sig X xmlreader xmlwriter -xorg -bpf ipv6 vala contrib png"
+
+# NOTE: This stage was built with the bindist USE flag enabled
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C.utf8
+L10N="en en-US fr fr-FR"
+
+GENTOO_MIRRORS="ftp://ftp.free.fr/mirrors/ftp.gentoo.org/ \
+http://ftp.free.fr/mirrors/ftp.gentoo.org/ \
+http://gentoo.mirrors.ovh.net/gentoo-distfiles/ \
+https://mirror.init7.net/gentoo/ \
+rsync://mirror.init7.net/gentoo/"
+GRUB_PLATFORMS="efi-64"
+
+MICROCODE_SIGNATURES="-S"

@@ -1,0 +1,23 @@
+# package.use# required by sys-kernel/installkernel-41::gentoo[systemd]
+# required by sys-kernel/gentoo-kernel-6.6.35::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/systemd-utils-254.13 boot kernel-install
+# required by www-client/librewolf-128.0.3_p1::librewolf[pgo,X]
+# required by www-client/librewolf (argument)
+>=x11-base/xorg-server-21.1.13-r1 xvfb
+# required by dev-libs/nss-3.102.1::gentoo
+# required by www-client/librewolf-128.0.3_p1::librewolf
+# required by www-client/librewolf (argument)
+>=dev-db/sqlite-3.46.0 abi_x86_32
+# required by dev-db/sqlite-3.46.0::gentoo[readline]
+# required by dev-libs/nss-3.102.1::gentoo
+# required by www-client/librewolf-128.0.3_p1::librewolf
+# required by www-client/librewolf (argument)
+>=sys-libs/readline-8.2_p10 abi_x86_32
+# required by x11-terms/cool-retro-term-1.2.0::gentoo
+# required by x11-terms/cool-retro-term (argument)
+>=dev-qt/qtdeclarative-5.15.14:5 localstorage
+# required by x11-terms/cool-retro-term-1.2.0::gentoo
+# required by x11-terms/cool-retro-term (argument)
+>=dev-qt/qtquickcontrols2-5.15.14 widgets

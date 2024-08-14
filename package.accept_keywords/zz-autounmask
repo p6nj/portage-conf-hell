@@ -1,0 +1,47 @@
+# package.accept_keywords# required by www-client/icecat (argument)
+=www-client/icecat-115.13.0 ~amd64
+# required by micro (argument)
+=app-editors/micro-2.0.13-r1 ~amd64
+# required by sys-kernel/installkernel-41::gentoo[efistub,systemd]
+# required by sys-kernel/gentoo-kernel-6.6.35::gentoo[initramfs]
+# required by @selected
+# required by @world (argument)
+=app-emulation/virt-firmware-24.7 ~amd64
+# required by games-misc/fortune-mod-kernelcookies (argument)
+=games-misc/fortune-mod-kernelcookies-9 ~amd64
+# required by wev (argument)
+=gui-apps/wev-1.0.0 ~amd64
+# required by app-admin/enpass-desktop-bin (argument)
+=app-admin/enpass-desktop-bin-6.7.4.933 ~amd64
+# required by www-client/librewolf (argument)
+=www-client/librewolf-128.0.3_p1 ~amd64
+# required by www-client/librewolf-128.0.3_p1::librewolf
+# required by www-client/librewolf (argument)
+=dev-libs/nss-3.102.1 ~amd64
+# required by x11-misc/i3status-rust (argument)
+=x11-misc/i3status-rust-0.33.1 ~amd64
+# required by games-util/gamemode (argument)
+=games-util/gamemode-1.8.1 ~amd64
+# required by x11-themes/arc-darkest-colors (argument)
+=x11-themes/arc-darkest-colors-0_pre20201112 ~amd64
+# required by gui-apps/corearchiver (argument)
+=gui-apps/corearchiver-4.5.0 ~amd64
+# required by gui-apps/corearchiver-4.5.0::guru
+# required by gui-apps/corearchiver (argument)
+=app-arch/libarchive-qt-2.0.7 ~amd64
+# required by x11-misc/pcmanfm-1.3.2-r2::gentoo
+# required by x11-misc/pcmanfm (argument)
+=x11-libs/libfm-1.3.2-r1 ~amd64
+# required by gui-apps/corearchiver-4.5.0::guru
+# required by gui-apps/corearchiver (argument)
+=gui-libs/libcprime-4.5.0 ~amd64
+# required by x11-misc/pcmanfm (argument)
+=x11-misc/pcmanfm-1.3.2-r2 ~amd64
+# required by gui-apps/swaync (argument)
+=gui-apps/swaync-0.10.1-r1 ~amd64
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.27.0 ~amd64
+# required by media-fonts/nerdfonts (argument)
+=media-fonts/nerdfonts-3.2.1 ~amd64
+# required by gui-apps/clipman (argument)
+=gui-apps/clipman-1.6.4 ~amd64
